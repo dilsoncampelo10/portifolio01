@@ -1,10 +1,11 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const IconArea = styled.div`
     cursor: pointer;
     margin-bottom: 10px;
-`
+`;
 export const Nav = styled.nav`
+    position: fixed;
     background-color: #24292F;
     flex-wrap: wrap;
     flex-direction: column;
@@ -14,7 +15,7 @@ export const Nav = styled.nav`
     height: 100vh;
     width: 5%;
   
-`
+`;
 // export const ButtonMenu = styled.button`
 //     position: absolute;
 //     z-index: 2;
@@ -26,8 +27,6 @@ export const Nav = styled.nav`
 //     border: 0;
 // `
 export const ListNav = styled.ul`
-   
-   
     background-color: #24292F;
     list-style:none;
 `
