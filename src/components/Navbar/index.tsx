@@ -18,12 +18,12 @@ export default function Navbar() {
             </N.ButtonMenu> */}
             <N.ListNav>
                 <N.ListItem>
-                    <N.NavItem href="#">
+                    <N.NavItem href="/">
                         <FaHome />
                     </N.NavItem>
                 </N.ListItem>
                 <N.ListItem>
-                    <N.NavItem href="#">
+                    <N.NavItem href="/sobre">
                         <FaUserAlt />
                     </N.NavItem>
                 </N.ListItem>

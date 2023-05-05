@@ -26,16 +26,17 @@ export const Nav = styled.nav`
 //     outline: 0;
 //     border: 0;
 // `
+
 export const ListNav = styled.ul`
     background-color: #24292F;
     list-style:none;
-`
+`;
 export const ListItem = styled.li`
     margin-bottom: 20px;
 
-`
+`;
 export const NavItem = styled.a`
    
     color: #fff;
     text-decoration: none;
-`
+`;
