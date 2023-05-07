@@ -1,21 +1,25 @@
+import Card from './Card';
 import * as M from './styles';
+
 
 export default function main() {
     return (
         <div className="container">
             <M.MainTitle>Olá Mundo!</M.MainTitle>
             <M.Text>
-                A ideia desse primeiro portifólio é avaliar minha experiência na área de desenvolvimento até agora (Meio de 2023). <br />
-                A ideia é criar três portifólios, o primeiro é esse, no qual assumo um cargo de desenolvedor júnior e os outros virão conforme eu sinta que assumi um novo nível.
-                Atualmente trabalho na Conted.tech, tenho 19 anos e alguns meses de experiência no mercado de trabalho.
-            </M.Text>
-            <M.Text>
-                O projeto foi criado usando <strong>TypeScript</strong>, com a biblioteca <strong>React</strong> e o framework <strong>Next</strong>. <br />
-                Algumas considerações a mais que posso fazer é mencionar o Syled Components e React Icons para ajudar na estilização. Na parte de consumo de Api utilizo o axios.
-            </M.Text>
-            <M.Text>
-                Enfim, o tem algumas sessões para explorar e minha meta é que daqui, um, dois, três anos eu consiga construir algo bem melhor.
-            </M.Text>
+                Seja bem-vindo! <br /> Confira abaixo alguns projetos que criei.
+            </M.Text> <br />
+            <h2>Principais projetos:</h2> <br />
+            <M.Container>
+                <Card title="Odonto Shield" description='Trata-se de um gerenciador de consultório de dentista, no qual o administrador vai ter o controle de cadastro de pacientes, consultas e cancelamento das mesmas' img='palcoNuarte.png' />
+                <Card title="Palco Nuarte" description='Projeto feito para meu trabalho de conclusão de curso, a ideia se concretizou em um site com adm para os responsáveis pelo projeto Nuarte, que é um núcleo do IFRN que realiza tarefas socio-culturais' img='palcoNuarte.png' />
+                <Card title="RDCA Project" description='Meu primeiro projeto de TCC, trata-se de um gerenciador de aulas extra-curriculares, no qual o objetivo é conciliar horários de professores e alunos' />
+
+            </M.Container>
+
+            <h2>Menções honrosas:</h2>
+
+
         </div>
     )
 }

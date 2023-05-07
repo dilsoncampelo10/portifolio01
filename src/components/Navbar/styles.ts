@@ -33,10 +33,9 @@ export const ListNav = styled.ul`
 `;
 export const ListItem = styled.li`
     margin-bottom: 20px;
-
 `;
+
 export const NavItem = styled.a`
-   
     color: #fff;
     text-decoration: none;
 `;

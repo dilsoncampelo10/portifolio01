@@ -10,3 +10,8 @@ export const Text = styled.p`
     line-height: 150%;
     text-align: justify;
 `
+
+export const Container = styled.div`
+    display: flex;
+    justify-content: space-between;
+`
